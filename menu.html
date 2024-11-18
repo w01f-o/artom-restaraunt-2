@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css" />
+    <title>Наше меню</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="container">
+        <div class="row header__row">
+          <div class="col-md-1 col-10">
+            <a href="./index.html" class="header__logo">
+              <img src="./assets/logo.svg" alt="" />
+            </a>
+          </div>
+          <div class="col-md-11 col-2">
+            <div class="nav-wrapper">
+              <nav class="nav d-md-block d-none">
+                <ul class="nav__list">
+                  <li class="nav__item">
+                    <a href="./index.html" class="nav__link">Главная</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="./menu.html" class="nav__link">Меню</a>
+                  </li>
+                </ul>
+              </nav>
+              <a href="./auth.html" class="auth-link d-md-block d-none"
+                >Регистрация</a
+              >
+            </div>
+            <div class="burger d-md-none d-flex">
+              <button class="burger__button">
+                <span></span><span></span><span></span>
+              </button>
+              <div class="burger__menu">
+                <nav class="nav burger__nav">
+                  <ul class="nav__list burger__nav-list">
+                    <li class="nav__item">
+                      <a href="./index.html" class="nav__link">Главная</a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="./menu.html" class="nav__link">Меню</a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="./auth.html" class="nav__link">Регистрация</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="menu">
+        <div class="container">
+          <div class="row menu__row">
+            <div class="col-12">
+              <h2 class="menu__category-title">Горячие блюда</h2>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img
+                    src="./assets/images/chanakhi.jpg"
+                    alt="Чанахи по-грузински"
+                  />
+                </div>
+                <div class="menu__item-name">Чанахи по-грузински</div>
+                <div class="menu__item-price">380 ₽</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img
+                    src="./assets/images/medallions.jpg"
+                    alt="Медальоны из свинины с грибным соусом"
+                  />
+                </div>
+                <div class="menu__item-name">
+                  Медальоны из свинины с грибным соусом
+                </div>
+                <div class="menu__item-price">450 ₽</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img
+                    src="./assets/images/cod.jpg"
+                    alt="Запечённая треска с лимонным соусом"
+                  />
+                </div>
+                <div class="menu__item-name">
+                  Запечённая треска с лимонным соусом
+                </div>
+                <div class="menu__item-price">490 ₽</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img
+                    src="./assets/images/lasagna.jpg"
+                    alt="Лазанья с мясным рагу"
+                  />
+                </div>
+                <div class="menu__item-name">Лазанья с мясным рагу</div>
+                <div class="menu__item-price">410 ₽</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img
+                    src="./assets/images/plov.jpg"
+                    alt="Плов с бараниной и курагой"
+                  />
+                </div>
+                <div class="menu__item-name">Плов с бараниной и курагой</div>
+                <div class="menu__item-price">430 ₽</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img
+                    src="./assets/images/julienne.jpg"
+                    alt="Жульен с курицей и грибами"
+                  />
+                </div>
+                <div class="menu__item-name">Жульен с курицей и грибами</div>
+                <div class="menu__item-price">370 ₽</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img
+                    src="./assets/images/fajitas.jpg"
+                    alt="Фахитос с говядиной"
+                  />
+                </div>
+                <div class="menu__item-name">Фахитос с говядиной</div>
+                <div class="menu__item-price">520 ₽</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img
+                    src="./assets/images/udon.jpg"
+                    alt="Удон с креветками в терияки соусе"
+                  />
+                </div>
+                <div class="menu__item-name">
+                  Удон с креветками в терияки соусе
+                </div>
+                <div class="menu__item-price">480 ₽</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img
+                    src="./assets/images/steak.jpg"
+                    alt="Стейк с картофельным гарниром"
+                  />
+                </div>
+                <div class="menu__item-name">Стейк с картофельным гарниром</div>
+                <div class="menu__item-price">850 ₽</div>
+              </div>
+            </div>
+          </div>
+          <div class="menu__category row">
+            <div class="col-12">
+              <h2 class="menu__category-title">Холодные блюда</h2>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img
+                    src="./assets/images/olivie.webp"
+                    alt="Салат Оливье с курицей"
+                  />
+                </div>
+                <div class="menu__item-name">Салат Оливье с курицей</div>
+                <div class="menu__item-price">250 ₽</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img
+                    src="./assets/images/greek.jpg"
+                    alt="Греческий салат с фетой"
+                  />
+                </div>
+                <div class="menu__item-name">Греческий салат с фетой</div>
+                <div class="menu__item-price">300 ₽</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img
+                    src="./assets/images/ceasar.webp"
+                    alt="Салат Цезарь с курицей"
+                  />
+                </div>
+                <div class="menu__item-name">Салат Цезарь с курицей</div>
+                <div class="menu__item-price">320 ₽</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img
+                    src="./assets/images/carpaccio.jpg"
+                    alt="Карпаччо из говядины"
+                  />
+                </div>
+                <div class="menu__item-name">Карпаччо из говядины</div>
+                <div class="menu__item-price">450 ₽</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img
+                    src="./assets/images/vinegret.jpg"
+                    alt="Винегрет с солеными огурцами"
+                  />
+                </div>
+                <div class="menu__item-name">Винегрет с солеными огурцами</div>
+                <div class="menu__item-price">200 ₽</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img
+                    src="./assets/images/shrimp.jpg"
+                    alt="Салат с креветками и авокадо"
+                  />
+                </div>
+                <div class="menu__item-name">Салат с креветками и авокадо</div>
+                <div class="menu__item-price">370 ₽</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img
+                    src="./assets/images/vegetable.jpg"
+                    alt="Овощной салат с оливковым маслом"
+                  />
+                </div>
+                <div class="menu__item-name">
+                  Овощной салат с оливковым маслом
+                </div>
+                <div class="menu__item-price">180 ₽</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img
+                    src="./assets/images/herring.jpg"
+                    alt="Селёдка под шубой"
+                  />
+                </div>
+                <div class="menu__item-name">Селёдка под шубой</div>
+                <div class="menu__item-price">240 ₽</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img src="./assets/images/ceviche.jpg" alt="Цевиче из рыбы" />
+                </div>
+                <div class="menu__item-name">Цевиче из рыбы</div>
+                <div class="menu__item-price">450 ₽</div>
+              </div>
+            </div>
+          </div>
+          <div class="menu__category row">
+            <div class="col-12">
+              <h2 class="menu__category-title">Напитки</h2>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img src="./assets/images/cola.jpg" alt="Кока-кола" />
+                </div>
+                <div class="menu__item-name">Кока-кола</div>
+                <div class="menu__item-price">150 ₽</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img src="./assets/images/sprite.jpg" alt="Спрайт" />
+                </div>
+                <div class="menu__item-name">Спрайт</div>
+                <div class="menu__item-price">150 ₽</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img
+                    src="./assets/images/mineral_water.jpg"
+                    alt="Минеральная вода"
+                  />
+                </div>
+                <div class="menu__item-name">Минеральная вода</div>
+                <div class="menu__item-price">120 ₽</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img src="./assets/images/juice.jpg" alt="Апельсиновый сок" />
+                </div>
+                <div class="menu__item-name">Апельсиновый сок</div>
+                <div class="menu__item-price">180 ₽</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img src="./assets/images/coffee.jpg" alt="Кофе эспрессо" />
+                </div>
+                <div class="menu__item-name">Кофе эспрессо</div>
+                <div class="menu__item-price">220 ₽</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img src="./assets/images/tea.jpg" alt="Чай зелёный" />
+                </div>
+                <div class="menu__item-name">Чай зелёный</div>
+                <div class="menu__item-price">180 ₽</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img src="./assets/images/smoothie.jpg" alt="Смузи из ягод" />
+                </div>
+                <div class="menu__item-name">Смузи из ягод</div>
+                <div class="menu__item-price">250 ₽</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img
+                    src="./assets/images/cocktail.jpg"
+                    alt="Коктейль 'Мохито'"
+                  />
+                </div>
+                <div class="menu__item-name">Коктейль 'Мохито'</div>
+                <div class="menu__item-price">350 ₽</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="menu__item">
+                <div class="menu__item-image">
+                  <img
+                    src="./assets/images/milkshake.jpg"
+                    alt="Молочный коктейль"
+                  />
+                </div>
+                <div class="menu__item-name">Молочный коктейль</div>
+                <div class="menu__item-price">250 ₽</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="row footer__row">
+          <div class="col-12">
+            <div class="footer__rights">© 2024 Все права защищены</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>

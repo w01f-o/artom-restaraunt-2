@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css" />
+    <title>Авторизация</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="container">
+        <div class="row header__row">
+          <div class="col-md-1 col-10">
+            <a href="./index.html" class="header__logo">
+              <img src="./assets/logo.svg" alt="" />
+            </a>
+          </div>
+          <div class="col-md-11 col-2">
+            <div class="nav-wrapper">
+              <nav class="nav d-md-block d-none">
+                <ul class="nav__list">
+                  <li class="nav__item">
+                    <a href="./index.html" class="nav__link">Главная</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="./menu.html" class="nav__link">Меню</a>
+                  </li>
+                </ul>
+              </nav>
+              <a href="./auth.html" class="auth-link d-md-block d-none"
+                >Регистрация</a
+              >
+            </div>
+            <div class="burger d-md-none d-flex">
+              <button class="burger__button">
+                <span></span><span></span><span></span>
+              </button>
+              <div class="burger__menu">
+                <nav class="nav burger__nav">
+                  <ul class="nav__list burger__nav-list">
+                    <li class="nav__item">
+                      <a href="./index.html" class="nav__link">Главная</a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="./menu.html" class="nav__link">Меню</a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="./auth.html" class="nav__link">Регистрация</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="auth">
+        <div class="container">
+          <div class="row auth__row">
+            <div class="col-12"><h1 class="auth__title">Авторизация</h1></div>
+            <div class="col-lg-6 col-md-8 col-12">
+              <form class="auth__form" action="./index.html">
+                <label class="auth__form-label">
+                  <input
+                    type="text"
+                    placeholder="Имя"
+                    class="auth__form-input"
+                  />
+                </label>
+                <label class="auth__form-label">
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    class="auth__form-input"
+                  />
+                </label>
+                <label class="auth__form-label">
+                  <input
+                    type="tel"
+                    placeholder="Номер телефона"
+                    class="auth__form-input"
+                  />
+                </label>
+                <label class="auth__form-label">
+                  <input
+                    type="password"
+                    placeholder="Пароль"
+                    class="auth__form-input"
+                  />
+                </label>
+                <button class="auth__form-button">Зарегистрироваться</button>
+                <div class="auth__form-confirm">
+                  *Регистрируясь вы соглашаетесь на использование ваших
+                  персональных данных
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="row footer__row">
+          <div class="col-12">
+            <div class="footer__rights">© 2024 Все права защищены</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
